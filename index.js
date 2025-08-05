@@ -22,7 +22,7 @@ async function sendToPerson({ email, name }) {
   const personalizedHtml = htmlTemplate.replace('{{name}}', name || 'Friend');
 
   const mailOptions = {
-    from: '"Shams" <Shams@pelicanessentials.com>',
+    from: '"Pelican Essentials" <Shams@pelicanessentials.com>',
     to: email,
     subject: 'Build Enduring Partnerships with Innovative Furniture Solutions',
     html: personalizedHtml
@@ -42,6 +42,7 @@ async function sendToPerson({ email, name }) {
     await sendToPerson(person);
   }
 })();
+
 
 
 
