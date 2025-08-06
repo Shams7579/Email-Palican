@@ -4,6 +4,7 @@
 <head>
 	<title></title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="color-scheme" content="light only">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--[if mso]>
 <xml><w:WordDocument xmlns:w="urn:schemas-microsoft-com:office:word"><w:DontUseAdvancedTypographyReadingMail/></w:WordDocument>
 <o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml>
@@ -19,6 +20,7 @@
 		body {
 			margin: 0;
 			padding: 0;
+			background: #fff !important;
 		}
 
 		a[x-apple-data-detectors] {
@@ -57,100 +59,7 @@
 			mso-hide: all;
 		}
 
-		@media (max-width:535px) {
 
-			.desktop_hide table.icons-inner,
-			.social_block.desktop_hide .social-table {
-				display: inline-block !important;
-			}
-
-			.icons-inner {
-				text-align: center;
-			}
-
-			.icons-inner td {
-				margin: 0 auto;
-			}
-
-			.image_block div.fullWidth {
-				max-width: 100% !important;
-			}
-
-			.menu-checkbox[type=checkbox]~.menu-links {
-				display: none !important;
-				padding: 5px 0;
-			}
-
-			.menu-checkbox[type=checkbox]:checked~.menu-trigger .menu-open,
-			.menu-checkbox[type=checkbox]~.menu-links span.sep {
-				display: none !important;
-			}
-
-			.menu-checkbox[type=checkbox]:checked~.menu-links,
-			.menu-checkbox[type=checkbox]~.menu-trigger {
-				display: block !important;
-				max-width: none !important;
-				max-height: none !important;
-				font-size: inherit !important;
-			}
-
-			.menu-checkbox[type=checkbox]~.menu-links>a,
-			.menu-checkbox[type=checkbox]~.menu-links>span.label {
-				display: block !important;
-				text-align: center;
-			}
-
-			.menu-checkbox[type=checkbox]:checked~.menu-trigger .menu-close {
-				display: block !important;
-			}
-
-			.mobile_hide {
-				display: none;
-			}
-
-			.row-content {
-				width: 100% !important;
-			}
-
-			.stack .column {
-				width: 100%;
-				display: block;
-			}
-
-			.mobile_hide {
-				min-height: 0;
-				max-height: 0;
-				max-width: 0;
-				overflow: hidden;
-				font-size: 0px;
-			}
-
-			.desktop_hide,
-			.desktop_hide table {
-				display: table !important;
-				max-height: none !important;
-			}
-
-			.reverse {
-				display: table;
-				width: 100%;
-			}
-
-			.reverse .column.first {
-				display: table-footer-group !important;
-			}
-
-			.reverse .column.last {
-				display: table-header-group !important;
-			}
-
-			.row-5 td.column.first .border,
-			.row-5 td.column.last .border,
-			.row-9 td.column.first .border,
-			.row-9 td.column.last .border {
-				padding: 5px 0;
-			}
-		}
 
 		#memu-r13c0m2:checked~.menu-links {
 			background-color: #ffffff !important;
@@ -160,15 +69,36 @@
 		#memu-r13c0m2:checked~.menu-links span {
 			color: #000000 !important;
 		}
+		@media (prefers-color-scheme: dark) {
+	body, table, td, div {
+	  background-color: #ffffff !important;
+	}
+  }
+
+  /* Force white background in Gmail and Outlook mobile */
+  u + #body a {
+	color: inherit;
+	text-decoration: none;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+  }
 	</style><!--[if mso ]><style>sup, sub { font-size: 100% !important; } sup { mso-text-raise:10% } sub { mso-text-raise:-10% }</style> <![endif]-->
 </head>
 
-<body class="body max-width: 600px" style="background-color: #fffdfd; margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
-	<table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fffdfd;">
+<body class="body max-width: 600px"  style="margin: 0; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;">
+  
+  <!--[if mso | IE]>
+  <table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#ffffff" style="background-color:#ffffff;"><tr><td>
+  <![endif]-->
+  <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" style="background-color:blue !important;width:100%;min-width:100vw;">
+	<tr><td>
+<table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" bgcolor="#ffffff" style="background-color: #fff !important; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/w8AAn8B9p6Q2wAAAABJRU5ErkJggg=='); background-repeat: repeat; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 		<tbody>
 			<tr>
 				<td>
-					<table class="row row-1" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ededed; background-position: top center; background-video: url('');">
+<table class="row row-1" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff !important;">
 						<tbody>
 							<tr>
 								<td>
@@ -179,7 +109,7 @@
 													<table class="image_block block-1" width="100%" border="0" cellpadding="60" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
 														<tr>
 															<td class="pad">
-																<div class="alignment" align="left">
+																<div class="alignment" align="center"></div>
 																	<div style="max-width: 385px;"><a href="https://pelicanessentials.com" target="_blank"><img src="https://ik.imagekit.io/khznvgcqj/1_WhatsApp_Image_2025-08-02_at_18.38.34_64c6f6ee.jpg" style="display: block; height: auto; border: 0; width: 100%;" width="385" alt title height="auto"></a></div>
 																</div>
 															</td>
@@ -227,7 +157,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-2" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ececec;">
+<table class="row row-2" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff !important;">
 						<tbody>
 							<tr>
 								<td>
@@ -260,7 +190,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-3" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ececec;">
+<table class="row row-3" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff !important;">
 						<tbody>
 							<tr>
 								<td>
@@ -324,7 +254,7 @@
 <w:anchorlock/>
 <v:textbox inset="0px,0px,0px,0px">
 <center dir="false" style="color:#141414;font-family:sans-serif;font-size:16px">
-<![endif]--><span class="button" style="background-color: #f3f3f3; border-bottom: 1px solid #141414; border-left: 1px solid #141414; border-radius: 4px; border-right: 1px solid #141414; border-top: 1px solid #141414; color: #141414; display: inline-block; font-family: Poppins, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-border-alt: none; padding-bottom: 5px; padding-top: 5px; padding-left: 20px; padding-right: 20px; text-align: center; width: auto; word-break: keep-all; letter-spacing: normal;"><span style="word-break: break-word; line-height: 32px;"><strong>Explore</strong></span><span style="word-break: break-word; line-height: 32px;"><br><strong>Lore</strong></span></span><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a></div>
+<![endif]--><span class="button" style="background-color: #f3f3f3; border-bottom: 1px solid #141414; border-left: 1px solid #141414; border-radius: 4px; border-right: 1px solid #141414; border-top: 1px solid #141414; color: #141414; display: inline-block; font-family: Poppins, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-border-alt: none; padding-bottom: 5px; padding-top: 5px; padding-left: 20px; padding-right: 20px; text-align: center; width: auto; word-break: keep-all; letter-spacing: normal;"><span style="word-break: break-word; line-height: 32px;"><strong>Explore Lore</strong></span></span><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a></div>
 															</td>
 														</tr>
 													</table>
@@ -355,7 +285,7 @@
 <w:anchorlock/>
 <v:textbox inset="0px,0px,0px,0px">
 <center dir="false" style="color:#141414;font-family:sans-serif;font-size:16px">
-<![endif]--><span class="button" style="background-color: #f3f3f3; border-bottom: 1px solid #141414; border-left: 1px solid #141414; border-radius: 4px; border-right: 1px solid #141414; border-top: 1px solid #141414; color: #141414; display: inline-block; font-family: Poppins, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-border-alt: none; padding-bottom: 5px; padding-top: 5px; padding-left: 20px; padding-right: 20px; text-align: center; width: auto; word-break: keep-all; letter-spacing: normal;"><span style="word-break: break-word; line-height: 32px;"><strong>Explore</strong></span><span style="word-break: break-word; line-height: 32px;"><br><strong>Anne</strong></span></span><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a></div>
+<![endif]--><span class="button" style="background-color: #f3f3f3; border-bottom: 1px solid #141414; border-left: 1px solid #141414; border-radius: 4px; border-right: 1px solid #141414; border-top: 1px solid #141414; color: #141414; display: inline-block; font-family: Poppins, Arial, Helvetica, sans-serif; font-size: 16px; font-weight: 400; mso-border-alt: none; padding-bottom: 5px; padding-top: 5px; padding-left: 20px; padding-right: 20px; text-align: center; width: auto; word-break: keep-all; letter-spacing: normal;"><span style="word-break: break-word; line-height: 32px;"><strong>Explore Anne</strong></span></span><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a></div>
 															</td>
 														</tr>
 													</table>
@@ -367,7 +297,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-4" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ececec;">
+<table class="row row-4" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff !important;">
 						<tbody>
 							<tr>
 								<td>
@@ -413,7 +343,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="row row-5" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #ececec;">
+<table class="row row-5" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; background-color: #fff !important;">
 						<tbody>
 							<tr>
 								<td>
@@ -868,6 +798,11 @@
 			</tr>
 		</tbody>
 	</table><!-- End -->
+	</td></tr>
+  </table>
+  <!--[if mso | IE]>
+  </td></tr></table>
+  <![endif]-->
 </body>
 
 </html>
