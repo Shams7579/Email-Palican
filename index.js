@@ -11,8 +11,8 @@ const recipients = JSON.parse(fs.readFileSync('./email.json', 'utf-8'));
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'anuragino20@gmail.com',
-    pass: 'pocn cwna vtfc cxqq' // Use App Password, not Gmail password
+    user: 'shams@pelicanessentials.com',
+    pass: 'spmw zqky geyk tsqk' // Use App Password, not Gmail password
   }
 });
 
@@ -22,9 +22,9 @@ async function sendToPerson({ email, name }) {
   const personalizedHtml = htmlTemplate.replace('{{name}}', name || 'Friend');
 
   const mailOptions = {
-    from: '"Anurag Kumar" <anuragino20@gmail.com>',
+    from: '"Pelican Essentials" <Shams@pelicanessentials.com>',
     to: email,
-    subject: 'Personalized HTML Email',
+    subject: 'Build Enduring Partnerships with Innovative Furniture Solutions',
     html: personalizedHtml
   };
 
@@ -42,6 +42,8 @@ async function sendToPerson({ email, name }) {
     await sendToPerson(person);
   }
 })();
+
+
 
 
 
